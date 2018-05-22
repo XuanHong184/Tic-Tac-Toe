@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <h1>Welcome to Tic Tac Toe!</h1>
+
+        <!-- SCORE COUNTER -->
+        <h2>Player X: <span id="player-x">W-0, L-0</span></h2>
+        <h2>Player O: <span id="player-o">W-0, L-0</span></h2>
+        <h2>Ties: <span id="ties">0</span></h2>
+
+        <!-- TIC TAC TOE TABLE -->
+        <table border="1">
+            <tr>
+                <td class="Square" id="slot0">-</td> 
+                <td class="Square" id="slot1">-</td>
+                <td class="Square" id="slot2">-</td>
+            </tr>
+            <tr>
+                <td class="Square" id="slot3">-</td>
+                <td class="Square" id="slot4">-</td>
+                <td class="Square" id="slot5">-</td>
+            </tr>
+            <tr>
+                <td class="Square" id="slot6">-</td>
+                <td class="Square" id="slot7">-</td>
+                <td class="Square" id="slot8">-</td>
+            </tr>
+        </table>
+
+        <h2><span id="win-message"></span></h2>
+        <h2>It's your move, <span id="curr-player">X</span>!</h2>
+
+        <button id="reset-button" name="button">Restart Round</button>
+
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
